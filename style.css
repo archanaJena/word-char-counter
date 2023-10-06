@@ -6,8 +6,27 @@
 .col-sm-12 {
   border: 2px solid black;
 }
+.count {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  margin-top: 20px;
+}
+.bi {
+  margin-left: 20px;
+}
 body {
-  background-color: #e9d5da;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
 }
 @media (max-width: 690px) {
   .row {
@@ -17,5 +36,13 @@ body {
 @media (max-width: 515px) {
   .row {
     width: 340px;
+  }
+  .bi {
+    width: 50px;
+    height: 50px;
+  }
+  .count {
+    font-size: 20px;
+    font-weight: 500;
   }
 }
